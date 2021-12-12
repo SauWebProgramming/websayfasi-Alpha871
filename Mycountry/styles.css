@@ -1,0 +1,109 @@
+
+
+#title row{
+  position: relative;
+}
+
+ #title h1{
+  position: absolute;
+  top : 3%;
+  text-align: center;
+  color : red;
+}
+
+h2{
+  color:#66BFBF;
+  font-size: 2.5rem;
+  text-align: center;
+  margin : 5% auto;
+
+}
+
+#content .top{
+  margin : 8% auto;
+}
+
+.top .first{
+  text-align: center;
+}
+
+.top img{
+  margin : 3% auto;
+}
+
+
+.top .vl{
+  border-left: 5px solid red;
+  padding-left:5%;
+}
+
+.vl p {
+  margin-top:3.5%;
+}
+
+.row .modifie{
+    height: 700px;
+    width : 100%;
+}
+
+#content .row {
+  padding:5% 10%;
+}
+
+ #nouriture img{
+  height: 90%;
+  width: 100%;
+}
+
+.heading {
+  margin : 5% auto;
+}
+
+#nouriture h2 {
+  margin-bottom: 5%;
+}
+
+
+#footer {
+  background-color:#66BFBF;
+  padding: 3% 10%;
+  color:#EAF6F6;
+  font-size:0.75rem;
+  text-align: center;
+  margin-top: 10%;
+}
+
+#footer a {
+  text-decoration: none;
+  margin: 15px;
+  color:#11999E;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+#footer a:hover{
+  color:#EAF6F6;
+}
+
+#footer p {
+  margin-top: 20px;
+  color : #EAF6F6;
+}
+
+
+@media screen and (max-width : 990px) {
+   .row .modifie{
+    height: 300px;
+  }
+  .top .vl{
+    border-left: none;
+  }
+  .vl h2{
+    margin-top : 5%;
+  }
+   #title h1{
+     position: absolute;
+     top:.5%;
+     font-size: 1.5rem;
+   }
+}
