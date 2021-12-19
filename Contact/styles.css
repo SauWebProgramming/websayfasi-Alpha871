@@ -2,10 +2,15 @@
 body{
   margin: 0;
   padding: 0;
+  position: relative;
 }
 img{
   width: 100%;
-  opacity: 0.5;
+  opacity: 0.3;
+}
+.black-background {
+  width: 100%;
+  background-color: black;
 }
 
 #bread{
