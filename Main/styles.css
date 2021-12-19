@@ -53,6 +53,25 @@ h1,h2,h3 {
   text-align: justify;
 }
 
+/*breadcrumb*/
+
+#bread{
+  text-align: center;
+  padding:5px 5px;
+  background-color: #E2EEF6;
+  font-size: 25px;
+}
+
+#bread a{
+  text-decoration: none;
+  color:#66BFBF;
+}
+
+
+#gallery-photo .modal-img{
+  width: 100%;
+}
+
 /*A Footer*/
 
 #footer{
