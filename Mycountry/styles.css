@@ -23,6 +23,23 @@ h2{
   margin : 8% auto;
 }
 
+
+/*breadcrumb*/
+
+#bread{
+  text-align: center;
+  padding:5px 5px;
+  background-color: #E2EEF6;
+  font-size: 25px;
+}
+
+#bread a{
+  text-decoration: none;
+  color:#66BFBF;
+}
+
+
+
 .top .first{
   text-align: center;
 }
@@ -50,7 +67,7 @@ h2{
   padding:5% 10%;
 }
 
- #nouriture img{
+ #gallery img{
   height: 90%;
   width: 100%;
 }
@@ -59,7 +76,7 @@ h2{
   margin : 5% auto;
 }
 
-#nouriture h2 {
+#gallery h2 {
   margin-bottom: 5%;
 }
 
@@ -89,6 +106,12 @@ h2{
   margin-top: 20px;
   color : #EAF6F6;
 }
+
+#gallery-photo .modal-img{
+  width: 100%;
+}
+
+
 
 
 @media screen and (max-width : 990px) {
