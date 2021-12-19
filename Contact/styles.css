@@ -1,0 +1,110 @@
+
+body{
+  margin: 0;
+  padding: 0;
+}
+img{
+  width: 100%;
+  opacity: 0.5;
+}
+
+#bread{
+  position: absolute;
+  top:30px;
+  text-align: center;
+  padding-top:5px;
+  background-color: #E2EEF6;
+}
+
+#bread a{
+  text-decoration: none;
+  font-size: 25px;
+  color:#66BFBF;
+  margin: 5px;
+}
+
+
+.form-group{
+  margin: 15px auto;
+}
+ form{
+  width: 700px;
+  height: 850px;
+  background-color: #E6E6FA;
+  border: 1px solid #E6E6FA;
+  line-height: 2;
+  vertical-align: middle;
+  margin: 7% auto;
+}
+
+.topHead{
+  position: absolute;
+  top : 0;
+}
+
+#map{
+  height: 400px;
+  width: 100%;
+}
+
+
+h2{
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.hd {
+  background-color: #F7F7F7;
+  padding: 20px;
+}
+
+.bd {
+  padding: 30px 40px;
+  color:rgb(51,51,51);
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.bd button{
+  font-size: 20px;
+  padding: 2px 40px;
+  margin:auto 5px;
+}
+
+
+/*A Footer*/
+
+#footer{
+  padding:2% 3%;
+  background-color:#6c757d;
+  text-align: center;
+  font-size: 12px;
+  width: 100%;
+}
+
+.footer-icon{
+  margin: 0 10px 15px 0px;
+}
+
+.footer-icon:hover{
+  color: #ff4c68;
+}
+
+i.iconIn{
+  color: #ff4c68;
+}
+
+
+i.iconIn:hover{
+  color:blue;
+}
+
+i.tIcon{
+  color:#1DA1F2;
+}
+
+
+
+.footer-icon:hover{
+  color: #ff4c68;
+}

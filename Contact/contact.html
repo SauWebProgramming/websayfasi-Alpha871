@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+
+    <!--Google fontlink-->
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@100&family=Sacramento&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome script-->
+    <script src="https://kit.fontawesome.com/dec73a506e.js" crossorigin="anonymous"></script>
+
+
+    <!--About Me css link-->
+    <link rel="stylesheet" href="styles.css">
+
+    <!--Boostrap link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <img src=" images/contact.jpg" alt="background">
+    <section id="bread">
+      <div class="container">
+        <nav style="--bs-breadcrumb-divider:'>';" aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="../Main/index.html">Home</a></li>
+            <li class="breadcrumb-item"><a href="../AboutMe/aboutMe.html">About Me</a></li>
+            <li class="breadcrumb-item"><a href="../Mycountry/mycountry.html">My country</a></li>
+            <li class="breadcrumb-item"><a href="../Discover/discover.html">Discover</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Contact</li>
+          </ol>
+        </nav>
+      </div>
+    </section>
+    <section class="container-fluid topHead">
+      <form>
+        <div class="hd">
+          <h2>Contact me</h2>
+        </div>
+        <div class="bd">
+
+        <div class="form-group">
+          <label for="name">Name : </label>
+          <input type="text" class="form-control" id="name" placeholder="Enter your Name">
+        </div>
+        <div class="form-group">
+          <label for="mail">Email address : </label>
+          <input type="email" class="form-control" id="mail" placeholder="Enter your Email">
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <div class="form-group" id="map" >
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="reset" class="btn btn-danger">Reset</button>
+      </form>
+  </section>
+
+  <section id=footer>
+
+    <div class="container-fluid">
+      <a href="https://www.facebook.com/alphaabdoulaye.bahalpha/"><i class="footer-icon fab fa-facebook fa-2x"></i></a>
+      <a href="https://www.facebook.com/alphaabdoulaye.bahalpha/"><i class="footer-icon fab fa-facebook-messenger fa-2x"></i></a>
+      <a href="https://www.instagram.com/alpha_abah/?hl=fr"><i class="footer-icon iconIn fab fa-instagram fa-2x"></i></a>
+      <a href="https://twitter.com/explore"><i class="footer-icon tIcon fab fa-twitter fa-2x"></i></a>
+      <p> &copy Copyright 2021 by Alpha. All rights reserved.</p>
+    </div>
+
+
+  </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script>
+      function initMap() {
+        var options = {
+          zoom:2,
+          center:{lat: 40.783333, lng:-30.400000}
+        }
+
+        //New map
+        var map = new
+        google.maps.Map(document.getElementById("map"), options);
+
+        //add marker
+        var marker = new google.maps.Marker({
+          position : {lat:40.740799, lng:	30.333300},
+          map:map
+        });
+
+
+      }
+    </script>
+
+    <script async
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDV9t1Fy1nfW52VcH9y86xvb1xKEJl07Sk&callback=initMap">
+    </script>
+  </body>
+</html>
