@@ -17,13 +17,15 @@ img{
   position: absolute;
   top:30px;
   text-align: center;
+  font-size: 25px;
+  color:#66BFBF;
   padding-top:5px;
   background-color: #E2EEF6;
+  z-index:2;
 }
 
 #bread a{
   text-decoration: none;
-  font-size: 25px;
   color:#66BFBF;
   margin: 5px;
 }
@@ -38,13 +40,13 @@ img{
   background-color: #E6E6FA;
   border: 1px solid #E6E6FA;
   line-height: 2;
-  vertical-align: middle;
   margin: 7% auto;
 }
 
 .topHead{
   position: absolute;
   top : 0;
+  z-index: 1;
 }
 
 #map{
@@ -81,10 +83,13 @@ h2{
 
 #footer{
   padding:2% 3%;
-  background-color:#6c757d;
+  background-color: #66BFBF;
   text-align: center;
   font-size: 12px;
   width: 100%;
+  position: relative;
+  z-index:3;
+
 }
 
 .footer-icon{

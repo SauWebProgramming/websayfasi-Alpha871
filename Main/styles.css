@@ -10,7 +10,7 @@ body{
 
 #menu .nav-link{
   margin-left: 20px;
-  font-size: 1.1rem;
+  font-size: 1.25rem;
 }
 
 #menu .nav-brand{
@@ -21,6 +21,18 @@ body{
 h1,h2,h3 {
   font-family: "Montserrat";
   font-weight: 900;
+}
+
+
+
+#menu .navbar-brand {
+  font-size: 25px;
+  font-family: "Sacramento", cursive;
+}
+
+#menu .nav-link:hover{
+  border-bottom: 5px solid red;
+  font-weight: bold;
 }
 
 
@@ -37,9 +49,13 @@ h1,h2,h3 {
   padding: 7% 15%;
 }
 
-
 .page-img{
-  opacity: 0.8;
+  background-color: black;
+}
+
+
+.page-img img{
+  opacity: 0.7;
 }
 
 #content hr{
@@ -76,7 +92,7 @@ h1,h2,h3 {
 
 #footer{
   padding:3% 5%;
-  background-color:#6c757d;
+  background-color:#66BFBF;
   text-align: center;
   font-size: 12px;
 }
