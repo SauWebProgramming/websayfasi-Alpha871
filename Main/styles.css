@@ -11,6 +11,7 @@ body{
 #menu .nav-link{
   margin-left: 20px;
   font-size: 1.25rem;
+  color : #fff;
 }
 
 #menu .nav-brand{
@@ -28,12 +29,65 @@ h1,h2,h3 {
 #menu .navbar-brand {
   font-size: 25px;
   font-family: "Sacramento", cursive;
+  color: #fff;
 }
 
 #menu .nav-link:hover{
   border-bottom: 5px solid red;
   font-weight: bold;
 }
+
+.welcome{
+  margin-left: 15px;
+  position: absolute;
+  top : 60%;
+  left: 20%;
+}
+
+.welcome .dynamic{
+  height: 90px;
+  line-height: 80px;
+  overflow: hidden;
+}
+
+
+
+.dynamic li{
+  list-style:none;
+  font-size: 60px;
+  font-weight: 500;
+  color: #fff;
+  animation: slide 8s steps(4) infinite;
+  position: relative;
+  top:0;
+  white-space: nowrap;
+}
+
+@keyframes slide {
+  100%{
+    top : -360px;
+  }
+}
+
+.dynamic li span{
+  position: relative;
+}
+
+.dynamic li span::after{
+  content:"";
+  position:absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  /*animation: typing 1.5s steps(4) infinite;*/
+}
+
+@keyframes typing {
+    from{width : 0;}
+    to {width : 100%;}
+}
+
+
 
 
 
