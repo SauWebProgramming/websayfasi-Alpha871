@@ -6,6 +6,53 @@ body{
   font-size: 20px;
   color:#40514E;
 }
+
+
+#title .container-fluid{
+  background: black;
+}
+
+#title img{
+  opacity: 0.8;
+}
+
+
+/*Animation*/
+
+.welcome{
+  margin-left: 15px;
+  position: absolute;
+  top : 40%;
+  left: 20%;
+}
+
+.welcome .dynamic{
+  height: 90px;
+  line-height: 80px;
+  overflow: hidden;
+}
+
+
+
+.dynamic li{
+  list-style:none;
+  font-size: 55px;
+  font-weight: 500;
+  color: #66BFBF;
+  animation: slide 8s steps(4) infinite;
+  position: relative;
+  top:0;
+  white-space: nowrap;
+}
+
+@keyframes slide {
+  100%{
+    top : -360px;
+  }
+}
+
+
+
 /*breadcrumb*/
 
 #bread{
