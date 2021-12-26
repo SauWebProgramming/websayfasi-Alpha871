@@ -42,11 +42,15 @@ h1, h2{
   font-size: 5.62rem;
   font-weight: bold;
   margin: 3% auto;
+  width:max-content;
 }
+
+
+
 
 h2 {
   font-size: 2.5rem;
-  font-weight: normal;
+  font-weight: 500;
 }
 
 h3 {
