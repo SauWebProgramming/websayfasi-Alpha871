@@ -2,15 +2,9 @@
 body{
   margin: 0;
   padding: 0;
-  position: relative;
-}
-img{
-  width: 100%;
-  opacity: 0.3;
-}
-.black-background {
-  width: 100%;
-  background-color: black;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/contact.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 #bread{
@@ -21,7 +15,6 @@ img{
   color:#66BFBF;
   padding-top:5px;
   background-color: #E2EEF6;
-  z-index:2;
 }
 
 #bread a{
@@ -30,27 +23,20 @@ img{
   margin: 5px;
 }
 
-
-.form-group{
-  margin: 15px auto;
-}
  form{
-  width: 700px;
-  height: 850px;
+  width: 60%;
   background-color: #E6E6FA;
   border: 1px solid #E6E6FA;
   line-height: 2;
-  margin: 7% auto;
+  margin: 150px auto;
 }
 
-.topHead{
-  position: absolute;
-  top : 0;
-  z-index: 1;
+.form-group textarea{
+  width: 100%;
 }
 
 #map{
-  height: 400px;
+  height: 220px;
   width: 100%;
 }
 
@@ -87,10 +73,9 @@ h2{
   text-align: center;
   font-size: 12px;
   width: 100%;
-  position: relative;
-  z-index:3;
-
+  margin :0;
 }
+
 
 .footer-icon{
   margin: 0 10px 15px 0px;
